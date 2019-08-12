@@ -1,0 +1,20 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.one_list {
+  border: solid grey 2px;
+  padding: 3px;
+}
+
+.scrollbar_list li {
+  list-style-type: none;
+}
+
+.scrollbar_list {
+  background-color: white;
+  height: 400px;
+  overflow: scroll;
+}
