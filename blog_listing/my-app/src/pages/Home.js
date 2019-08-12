@@ -3,10 +3,14 @@ import React from "react";
 import logoalta from "./../img/logo-ALTA.png";
 import matthew from "./../img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg";
 import "./../styles/home.css";
+import { Header } from "./../components/Header";
 
 export function Home() {
   return (
     <div id="homebody">
+      <div>
+        <Header />
+      </div>
       <div className="content">
         <div className="container-fluid">
           <div className="row">

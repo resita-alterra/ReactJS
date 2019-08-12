@@ -30,9 +30,7 @@ export function Header() {
                       <a href="home.html">HOME</a>
                     </li>
                     <li>
-                      <a id="now" href="#">
-                        ABOUT
-                      </a>
+                      <a href="#">ABOUT</a>
                     </li>
                     <li>
                       <a href="#">EXPERIENCE</a>

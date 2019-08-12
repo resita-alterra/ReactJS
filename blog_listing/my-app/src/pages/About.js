@@ -1,12 +1,14 @@
 import React from "react";
 import matthew from "./../img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg";
 import dot from "./../img/img-dot.png";
-
+import { Header } from "./../components/Header";
+import { Footer } from "./../components/Footer";
 import "./../styles/main.css";
 
 export function About() {
   return (
     <div id="aboutbody">
+      <Header />
       <div className="container-fluid about-me">
         <div className="container">
           <div>ABOUT ME.</div>
@@ -78,7 +80,7 @@ export function About() {
           </div>
         </div>
       </div>
-
+      <Footer />
       <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
