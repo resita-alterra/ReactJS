@@ -5,7 +5,7 @@ export class List extends React.Component {
     let ini = [];
     for (let i = 0; i < 10; i++) {
       ini.push(
-        <li>
+        <li className="list-group-item">
           <div className="one_list">
             <p
               style={{
@@ -28,6 +28,6 @@ export class List extends React.Component {
         </li>
       );
     }
-    return <ul>{ini}</ul>;
+    return <ul className="list-group">{ini}</ul>;
   }
 }

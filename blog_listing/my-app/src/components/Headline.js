@@ -11,7 +11,8 @@ export function Headline() {
           padding: 15
         }}
       />
-      <h4>Tenki No Ko akan Segera Tayang di Indonesia</h4>
+      <h3>Tenki No Ko akan Segera Tayang di Indonesia</h3>
+      <p style={{ fontSize: 10, color: "grey" }}>Published : August 2019</p>
       <p>
         Yeay. Satu lagi anime yang dinanti-nanti akan segera tayang. Untung saja
         anime ini tidak hanya ditayangkan di CGV, tapi juga Cinemaxx,ini artinya
