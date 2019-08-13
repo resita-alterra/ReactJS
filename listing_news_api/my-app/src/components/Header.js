@@ -24,7 +24,7 @@ export function Header() {
           <div className="col-md-4 col-sm-6 align-items-center">
             <div className="float-right">
               <div className="header-menu">
-                <nav class="navbar navbar-expand navbar-light justify-content-between">
+                <nav className="navbar navbar-expand navbar-light justify-content-between">
                   <ul>
                     <li>
                       <a href="home.html">HOME</a>
